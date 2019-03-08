@@ -9,13 +9,16 @@
 import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component
-export default class HelloWorld extends Vue {
+export default class About extends Vue {
   @Prop() private msg!: string
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import '../scss/_variables.scss';
+.hello {
+  background-color: $color-primary;
+}
 h3 {
   margin: 40px 0 0;
 }
