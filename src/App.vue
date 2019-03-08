@@ -7,19 +7,21 @@
 
 <style lang="scss">
 @import './scss/_variables.scss';
-#app {
-  background-color: $color-primary;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+
+body {
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  width: 100vw;
+  height: 100vh;
+  background-color: $color-primary;
+  margin: 0;
 }
 </style>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import About from '@/components/About.vue'
+import About from '@/components/about/About.vue'
 
 @Component({
   components: { About },
