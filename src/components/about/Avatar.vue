@@ -1,9 +1,5 @@
 <template>
-  <img
-    class="avatar"
-    src="../../assets/avatar-compressed.png"
-    alt="Profile image"
-  />
+  <img class="avatar" src="../../assets/avatar-compressed.png" alt="Profile image">
 </template>
 
 <style lang="scss" scoped>
