@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <About/>
+    <!-- <About/> -->
+    <GitTracker username="jordond"/>
   </div>
 </template>
 
@@ -21,9 +22,10 @@ body {
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import About from '@/components/about/About.vue'
+import GitTracker from '@/components/gittracker/GitTracker.vue'
 
 @Component({
-  components: { About },
+  components: { About, GitTracker },
 })
 export default class App extends Vue {}
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <Avatar />
+    <Avatar/>
   </div>
 </template>
 
@@ -11,9 +11,7 @@ import Avatar from './Avatar.vue'
 @Component({
   components: { Avatar },
 })
-export default class About extends Vue {
-  @Prop() private msg!: string
-}
+export default class About extends Vue {}
 </script>
 
 <style scoped lang="scss">
